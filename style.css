@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+body{
+    background-color: #252525;
+    font-family: "Courier Prime", monospace;
+    font-weight: 600px;
+    font-size: 1.8rem;
+}
+
+.stopwatch{
+    width: 100%;
+    max-width: 600px;
+    background-image: url(pngtree-time-management-in-the-digital-world-3d-online-text-with-clock-image_3823304.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 6px;
+    color: #fff;
+    margin: 60px auto;
+    box-shadow: 0 15px 15px black;
+}
+
+.stopwatch h1{
+    /* padding-top: 30px; */
+    /* margin-top: 60px; */
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.buttons img{
+    width: 80px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.buttons img:nth-child(2){
+    width: 120px;
+    padding: 0 0 30px 0;
+}
